@@ -143,6 +143,14 @@
     <ClInclude Include="grid.h" />
     <ClInclude Include="position.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\..\Downloads\monogram.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Downloads\clear.mp3" />
+    <Media Include="..\..\..\..\Downloads\music.mp3" />
+    <Media Include="..\..\..\..\Downloads\rotate.mp3" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
