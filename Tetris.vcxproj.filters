@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de recursos\assets">
+      <UniqueIdentifier>{a0da6cf2-a563-4626-b635-7f6ee521ba24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\assets\fonts">
+      <UniqueIdentifier>{5a05afd9-60ba-489d-936a-cfe32ad35947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\assets\sounds">
+      <UniqueIdentifier>{6595c92c-8503-4df9-8c63-8911758f18a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tetris.cpp">
@@ -56,5 +65,21 @@
     <ClInclude Include="blocks.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Downloads\clear.mp3">
+      <Filter>Archivos de recursos\assets\sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\..\Downloads\rotate.mp3">
+      <Filter>Archivos de recursos\assets\sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\..\Downloads\music.mp3">
+      <Filter>Archivos de recursos\assets\sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\..\Downloads\monogram.ttf">
+      <Filter>Archivos de recursos\assets\fonts</Filter>
+    </Font>
   </ItemGroup>
 </Project>
