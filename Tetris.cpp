@@ -24,6 +24,7 @@ int main()
 	Game game = Game();
 
 	while (!WindowShouldClose()) {
+		UpdateMusicStream(game.music);
 		game.HandleInput();
 		if (EventTriggered(0.2)) {
 			game.MoveBlockDown();
